@@ -1,140 +1,136 @@
-# 🎓 AI-Powered Student Performance Prediction, Risk Analysis & Career Guidance System
+# 🎓 AI-Powered Student Performance Prediction, Risk Analysis & Academic Guidance System
 
 ## 📌 Project Overview
 
-The AI-Powered Student Performance Prediction System is an intelligent academic analytics platform designed to evaluate student performance, identify academic risks, recommend improvement strategies, and provide career guidance using Machine Learning techniques.
+The AI-Powered Student Performance Prediction, Risk Analysis & Academic Guidance System is a comprehensive Machine Learning-based web application developed to help students evaluate their academic performance, identify potential risks, improve learning outcomes, and make informed career decisions.
 
-The system analyzes multiple academic and behavioral factors such as CGPA, attendance, internal marks, study habits, project involvement, assignments, extracurricular activities, technical skills, sleep patterns, and backlogs to predict overall student performance.
+The system analyzes multiple academic and behavioral factors such as CGPA, attendance, internal marks, study hours, projects, assignments, extracurricular activities, sleep patterns, technical skills, and backlogs to generate intelligent predictions and personalized recommendations.
 
-In addition to prediction, the platform provides personalized academic insights including risk assessment, weak area detection, study planning, career recommendations, academic health scoring, explainable AI insights, and downloadable performance reports.
-
----
-
-## 🎯 Objectives
-
-- Predict student academic performance using Machine Learning.
-- Identify students at academic risk.
-- Detect weak and strong academic areas.
-- Generate personalized improvement suggestions.
-- Recommend suitable career paths.
-- Create customized study plans.
-- Provide explainable AI insights.
-- Generate professional PDF reports.
-- Maintain student records using SQLite database.
+Unlike traditional prediction systems, this platform goes beyond performance forecasting by providing academic risk analysis, weak area detection, career guidance, study planning, explainable AI insights, academic advisory support, downloadable PDF reports, and interactive analytics dashboards.
 
 ---
 
-## 🚀 Key Features
+# 🚀 Key Features
 
-### 1. Student Performance Prediction
-Predicts whether a student belongs to:
+## 🎯 Student Performance Prediction
 
-- Good Performance
-- Average Performance
-- Poor Performance
+Predicts overall student performance using a Machine Learning model.
 
-Machine Learning Model:
+### Prediction Categories
+
+- Good
+- Average
+- Poor
+
+### Machine Learning Algorithm
+
 - Random Forest Classifier
 
 ---
 
-### 2. Academic Risk Analysis
+## ⚠ Academic Risk Analysis
 
-Calculates:
+Evaluates student academic risk using:
 
-- Academic Risk Score (0-100)
-- Risk Level
+- CGPA
+- Attendance
+- Internal Marks
+- Study Hours
+- Backlogs
 
-Categories:
+### Risk Categories
 
 - Low Risk
 - Medium Risk
 - High Risk
 
-Factors Considered:
-
-- Attendance
-- Internal Marks
-- Study Hours
-- CGPA
-- Backlogs
-
 ---
 
-### 3. Weak Area Detection
+## 📊 Weak Area Detection
 
-Identifies:
+Automatically identifies:
 
-#### Strong Areas
-- CGPA
-- Attendance
-- Internal Marks
+### Strengths
+
+- Strong CGPA
+- Good Attendance
+- High Internal Marks
 - Technical Skills
-- Projects
+- Project Experience
 
-#### Weak Areas
+### Weak Areas
+
 - Low Attendance
-- Low Study Hours
-- Poor Academic Scores
-- Skill Gaps
+- Poor Internal Performance
+- Insufficient Study Hours
+- Technical Skill Gaps
+- Academic Backlogs
 
 ---
 
-### 4. Personalized Improvement Suggestions
+## 💡 Personalized Improvement Suggestions
 
-Provides customized recommendations such as:
+Generates customized recommendations for:
 
-- Increase attendance
-- Improve study consistency
-- Complete additional projects
-- Strengthen technical skills
-- Clear academic backlogs
+- Academic Improvement
+- Study Habits
+- Skill Development
+- Project Building
+- Exam Preparation
+- Backlog Management
 
 ---
 
-### 5. Career Guidance Engine
+## 💼 Career Guidance Engine
 
-Recommends career paths based on academic profile and skills.
+Recommends career paths based on academic profile and technical skills.
 
-Example Careers:
+### Example Career Recommendations
 
 - AI / ML Engineer
 - Data Scientist
 - Data Analyst
 - Software Developer
-- Project Manager
+- Backend Developer
+- Full Stack Developer
+- Cloud Engineer
 
-Each recommendation includes a career match score.
+Each recommendation includes a career match percentage.
 
 ---
 
-### 6. Personalized Study Planner
+## 📅 Personalized Study Planner
 
-Generates weekly study plans tailored to student weaknesses and academic goals.
+Generates a structured weekly study plan based on:
+
+- Academic Performance
+- Risk Score
+- Backlogs
+- Technical Skills
 
 Includes:
 
 - Revision Schedule
 - Coding Practice
-- Backlog Preparation
+- Subject Preparation
 - Assignment Planning
 - Skill Development Activities
 
 ---
 
-### 7. Academic Health Score
+## ❤️ Academic Health Score
 
-Provides an overall academic wellness score based on:
+Calculates an overall academic wellness score using:
 
 - CGPA
 - Attendance
 - Internal Marks
+- Study Hours
 - Projects
-- Skills
-- Study Habits
+- Skills Score
 - Backlogs
 
-Performance Categories:
+### Health Categories
 
 - Excellent
 - Good
@@ -143,49 +139,80 @@ Performance Categories:
 
 ---
 
-### 8. Explainable AI Module
+## 📈 Explainable AI Module
 
-Displays the contribution of each feature to the final prediction.
+Provides transparency by showing the importance of each feature used by the prediction model.
 
-Example:
+### Example
 
 - CGPA → 22%
 - Attendance → 18%
 - Internal Marks → 17%
 - Skills Score → 12%
+- Study Hours → 10%
 
-This improves transparency and model interpretability.
+This improves trust and interpretability of predictions.
 
 ---
 
-### 9. PDF Report Generation
+## 🤖 AI Academic Advisor
 
-Generates downloadable performance reports containing:
+Interactive academic assistant capable of answering questions related to:
 
-- Student Details
+- CGPA Improvement
+- Attendance Management
+- Internal Marks
+- Study Planning
+- Career Guidance
+- Skills Development
+- Backlog Recovery
+
+---
+
+## 📚 Prediction History Tracking
+
+Stores prediction records using SQLite database.
+
+Includes:
+
 - Prediction Results
+- Confidence Scores
+- Risk Scores
+- Risk Levels
+- Prediction Dates
+
+---
+
+## 📄 PDF Report Generation
+
+Generates downloadable academic reports containing:
+
+- Student Information
+- Performance Prediction
+- Confidence Score
 - Risk Analysis
 - Academic Health Score
+- Strong Areas
+- Weak Areas
 - Career Recommendations
-- Study Plan
 - Improvement Suggestions
 
 ---
 
-### 10. Database Management
+## 📊 Interactive Analytics Dashboard
 
-SQLite Database Integration
+Provides visual insights through:
 
-Stores:
-
-- Student Information
-- Prediction History
-- Performance Reports
-- Academic Analytics
+- Prediction Distribution
+- Risk Distribution
+- Confidence Trends
+- Risk Trends
+- AI Insights
+- Historical Prediction Records
 
 ---
 
-## 🧠 Machine Learning Workflow
+# 🧠 Machine Learning Workflow
 
 ```text
 Student Data
@@ -194,7 +221,7 @@ Data Validation
       ↓
 Feature Processing
       ↓
-Random Forest Model
+Random Forest Classifier
       ↓
 Performance Prediction
       ↓
@@ -206,124 +233,169 @@ Suggestions Generation
       ↓
 Career Guidance
       ↓
-Study Plan Creation
+Study Plan Generation
       ↓
 Academic Health Score
       ↓
 PDF Report Generation
 ```
 
-## 📊 Dataset Features
+---
 
-The model is trained using the following attributes:
+# 📂 Application Modules
 
-- CGPA
-- Attendance
-- Internal Marks
-- Study Hours
-- Projects
-- Assignments Completed
-- Extracurricular Score
-- Sleep Hours
-- Backlogs
-- Skills Score
+### 🏠 Home
 
-Target Variable:
+Project overview, features and application summary.
 
-- Performance
+### 🎯 Prediction
 
-Categories:
+Student performance prediction and analysis.
 
-- Good
-- Average
-- Poor
+### 📚 History
+
+Prediction history and report management.
+
+### 📊 Dashboard
+
+Analytics and visualization dashboard.
+
+### 🤖 AI Academic Advisor
+
+Interactive academic support assistant.
+
+### ℹ About
+
+Project documentation and technology overview.
 
 ---
 
-## 🛠️ Technologies Used
-
-### Programming Language
-- Python
-
-### Machine Learning
-- Scikit-Learn
-- Random Forest Classifier
-
-### Data Processing
-- Pandas
-- NumPy
-
-### Database
-- SQLite
-
-### Reporting
-- ReportLab
-
-### Frontend (Future Integration)
-- Streamlit
-
-### AI Features
-- Explainable AI
-- Academic Advisor
-
----
-
-## 📁 Project Structure
+# 📁 Project Structure
 
 ```text
 Student_Performance_AI/
-│
-├── data/
+
+├── app.py
+
+├── pages/
+│   ├── 1_Prediction.py
+│   ├── 2_History.py
+│   ├── 3_Dashboard.py
+│   ├── 4_About.py
+│   └── 5_AI_Advisor.py
+
 ├── database/
+│   ├── database.py
+│   └── student.db
+
 ├── models/
+│   ├── prediction.py
+│   ├── trained_model.pkl
+│   └── label_encoder.pkl
+
 ├── services/
-├── utils/
+│   ├── risk_analysis.py
+│   ├── weak_area_detector.py
+│   ├── suggestions.py
+│   ├── career_guidance.py
+│   ├── study_planner.py
+│   ├── academic_health_score.py
+│   ├── explainable_ai.py
+│   ├── ai_advisor.py
+│   └── report_generator.py
+
 ├── reports/
-│
-├── config.py
-├── main.py
+
 ├── requirements.txt
+
 └── README.md
 ```
 
 ---
 
-## 📈 Model Performance
+# 🛠 Technologies Used
 
-- Dataset Size: 1000+ Records
-- Algorithm: Random Forest Classifier
-- Accuracy Achieved: ~88%
-- Evaluation Metrics:
-  - Accuracy
-  - Precision
-  - Recall
-  - F1 Score
+### Programming Language
+
+- Python
+
+### Machine Learning
+
+- Scikit-Learn
+- Random Forest Classifier
+
+### Data Processing
+
+- Pandas
+- NumPy
+
+### Web Application
+
+- Streamlit
+
+### Database
+
+- SQLite
+
+### Visualization
+
+- Matplotlib
+
+### Report Generation
+
+- ReportLab
+
+### Version Control
+
+- Git & GitHub
 
 ---
 
-## 🔮 Future Enhancements
+# 📈 Model Performance
 
-- Streamlit Interactive Dashboard
+### Algorithm
+
+- Random Forest Classifier
+
+### Accuracy Achieved
+
+**88%**
+
+### Evaluation Metrics
+
+- Accuracy
+- Precision
+- Recall
+- F1 Score
+
+---
+
+# 🔮 Future Enhancements
+
 - Student Login & Registration
-- Prediction History Tracking
-- Real-Time Analytics Dashboard
-- AI Chatbot Academic Advisor
+- Personalized AI Recommendations
+- Faculty Dashboard
+- Resume Analysis Module
+- Interview Preparation Assistant
 - Email Notifications
 - Cloud Deployment
-- Multi-Student Performance Monitoring
-- Faculty Dashboard
+- Advanced Learning Analytics
 
 ---
 
-## 👩‍💻 Author
+# 👩‍💻 Developer
 
-**Toka Priyanka**
+## Toka Priyanka
 
-B.Tech Computer Science Engineering  
-GITAM School of Technology
+**B.Tech Computer Science Engineering**  
+**GITAM School of Technology**
+
+### Areas of Interest
+
+- Artificial Intelligence
+- Machine Learning
+- Data Analytics
+- Full Stack Development
 
 ---
 
-## 📄 License
-
-This project is developed for educational and research purposes.
